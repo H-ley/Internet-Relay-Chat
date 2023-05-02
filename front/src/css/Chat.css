@@ -1,0 +1,14 @@
+.chat {
+    width: 80%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    border: solid;
+    border-color: #fff;
+    border-radius: 1vh;
+}
+
+.live-chat {
+    text-align: center;
+}

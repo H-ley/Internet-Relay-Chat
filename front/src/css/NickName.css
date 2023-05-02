@@ -1,0 +1,68 @@
+.nickname {
+    background-color: #363C45;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 30vh;
+    height: 21em;
+}
+
+.nickname .content {
+    text-align: center;
+    display: block;
+    justify-items: center;
+}
+
+.nickname .content label{
+    margin-top: 5vh;
+    font-family: 'Poppins';
+    font-size: 4vh;
+    margin-bottom: 1vh;
+    display: block;
+    text-align: center;
+}
+
+.nickname .content p{
+    display: block;
+    text-align: center;
+}
+
+.nickname .content p input{
+    color: white;
+    position: relative;
+    background-color: #24282E;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    outline-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 2.5vh;
+    height: 5vh;
+    width: 30vh;
+    transition: 0.2s;
+}
+
+.nickname .content p input:focus{
+    outline: none;
+    height: 6vh;
+    width: 31vh;
+}
+
+.nickname .content button{
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: #24282E;
+    font-size: 2vh;
+    width: 15vh;
+    height: 5vh;
+    transition: 0.2s;
+}
+
+.nickname .content button:hover {
+    color: #363C45;
+    background-color: #BAC1C9;
+}

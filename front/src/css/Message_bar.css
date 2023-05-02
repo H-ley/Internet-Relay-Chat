@@ -1,0 +1,48 @@
+.message_bar {
+    position: fixed;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4em;
+    border-radius: 10px;
+}
+
+.message_bar button {
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color: #3F4750;
+    color: white;
+    width: 20%;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.2s;
+    
+}
+
+.message_bar button:hover {
+    color: #363C45;
+    background-color: #BAC1C9;
+}
+
+.message_bar input {
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #363C45;
+    color: white;
+    width: 40em;
+    font-size: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.message_bar input::placeholder {
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+}
